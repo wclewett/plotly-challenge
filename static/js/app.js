@@ -39,14 +39,14 @@ function init() {
         marker: {size: 42, color:'darkblue'},
         value: result.wfreq,
         title: 'Washing Frequency - Scrubs per Week <br> ',
-        titlefont: {family: '"Palatino Linotype", "Book Antiqua", Palatino, serif'},
+        titlefont: {family: "Arial"},
         type: "indicator",
         mode: "gauge+number",
         gauge: {
             bar: { color: "RebeccaPurple" },
             bgcolor: "white",
             borderwidth: 2,
-            bordercolor: "white"
+            bordercolor: "gray"
           }
       }
     ];
